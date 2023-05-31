@@ -23,11 +23,11 @@ There is no improvement. In fact, the score is worse.
 Explore more the dataset. 
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-|model|hpo1|hpo2|hpo3|score|
+|model|time_limit|preset|model_hpo|score|
 |--|--|--|--|--|
-|initial|?|?|?|?|
-|add_features|?|?|?|?|
-|hpo|?|?|?|?|
+|initial|600|best_quality|default|1.38027|
+|add_features|600|best_quality|default|0.55472|
+|hpo|600|best_quality|CatBoost, GBM, NN|0.47508|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 

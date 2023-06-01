@@ -10,7 +10,7 @@ Weighted Ensemble Model
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
-TODO: Add your explanation
+Season and weather are discrete value and the data type can be change from number to category. We add year, month, week, day, and hour, extracted from 'datetime' columns.
 
 ### How much better did your model preform after adding additional features and why do you think that is?
 It significantly improve the score. The MAE score decrease about 50%.
